@@ -1,6 +1,6 @@
 //Maya ASCII 2025ff03 scene
 //Name: MayaTest.ma
-//Last modified: Thu, Aug 29, 2024 02:34:41 PM
+//Last modified: Thu, Aug 29, 2024 02:37:27 PM
 //Codeset: 1252
 requires maya "2025ff03";
 requires "stereoCamera" "10.0";
@@ -11,7 +11,7 @@ fileInfo "product" "Maya 2025";
 fileInfo "version" "2025";
 fileInfo "cutIdentifier" "202407121012-8ed02f4c99";
 fileInfo "osv" "Windows 11 Home v2009 (Build: 22631)";
-fileInfo "UUID" "7A4109C2-4C9C-66B5-CC23-F497A37E0920";
+fileInfo "UUID" "78C0B423-4546-A5E3-287D-9EA5C2B6E61B";
 createNode transform -s -n "persp";
 	rename -uid "E3AFEF01-4DFE-8E8A-F83C-5C98ED91F76D";
 	setAttr ".v" no;
@@ -29,7 +29,7 @@ createNode camera -s -n "perspShape" -p "persp";
 createNode transform -s -n "top";
 	rename -uid "46CA5A08-45B3-8CAF-3600-D5A1D83D2CE4";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 7.3587512699171347 9.8802877001772043 2.6783664236187139 ;
+	setAttr ".t" -type "double3" 9.1225693317774379 12.248492476059681 3.320343696796952 ;
 	setAttr ".r" -type "double3" -51.600000000000186 70.000000000000469 -9.299319772622549e-15 ;
 	setAttr ".rp" -type "double3" -3.3173690911020326e-24 0 1.0159951911535738e-15 ;
 	setAttr ".rpt" -type "double3" 3.3173690911020326e-24 8.9520302040849107e-15 -1.0159951911535738e-15 ;
@@ -37,7 +37,7 @@ createNode camera -s -n "topShape" -p "top";
 	rename -uid "2D321D85-42A0-FF57-72A8-549CE6A348C0";
 	setAttr -k off ".v" no;
 	setAttr ".rnd" no;
-	setAttr ".coi" 12.607337228373305;
+	setAttr ".coi" 15.629188123956105;
 	setAttr ".ow" 30;
 	setAttr ".imn" -type "string" "top";
 	setAttr ".den" -type "string" "top_depth";
